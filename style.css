@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right bottom, #138069, #8b247f);
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.converter-container{
+    background: transparent;
+    border: 0.3px solid #138069;
+    padding: 28px 30px;
+    box-shadow: 0 0 10px 0 #000000;
+    border-radius: 5px;
+               
+}
+
+.converter-container h1 {
+    font-size: 2rem;
+    color: #fff;
+    margin-block: 20px;
+    text-align: center;
+}
+.input-container input{
+    outline: none;
+    background: transparent;
+    border: none;
+    padding: 8px 10px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.input-container select{
+    outline: none;
+    border: none;
+    padding: 8px 10px;
+    font-size: 18px;
+    color: #fff;
+    background: #13806884;
+
+}
+.input-container {
+    border: 0.5px solid #138069;
+    border-radius: 3px;
+}
+.arrow{
+    font-size: 25px;
+    font-weight: 800;
+    margin-block: 20px;
+    color: #fff;
+    text-align: center;
+}
+.resust{
+    margin-block: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+/* * Responsive code */
+
+@media screen and (max-width:570px) {
+    .converter-container{
+        width: 88%;
+        margin: 0 auto;
+
+    }
+    .input-container {
+        border: none;
+        text-align: center;
+    }
+    .input-container input {
+        border: 0.3px solid #138069;
+        text-align: center;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .input-container select {
+        border: 0.3px solid #138069;
+        text-align: center;
+        width: 100%;
+        font-size: 15px;
+    }
+}
